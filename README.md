@@ -8,7 +8,7 @@ PhantomJS script to save screenshot of Thames river conditions.
 
 I've created a $5/month Droplet - 512MB RAM / 20GB HDD.
 
-## Install PhantomJS
+### Install PhantomJS
 
 NOTE. Using `apt-get install phantomjs` installed a version that didn't work. The instructions below came from [PhantomJS GitHub issue 14376](https://github.com/ariya/phantomjs/issues/14376#issuecomment-246310115).
 
@@ -19,13 +19,13 @@ tar -xvf phantomjs-2.1.1-linux-x86_64.tar
 cp phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/bin/phantomjs
 ```
 
-## Clone repo
+### Clone repo
 
 ```bash
 $ git clone https://github.com/chrisroos/thames-river-conditions.git
 ```
 
-## Configure crontab
+### Configure crontab
 
 Run every hour.
 
@@ -33,6 +33,6 @@ Run every hour.
 0 */1 * * * cd /root/thames-river-conditions/ && phantomjs save-river-conditions.js
 ```
 
-## Todo
+### Todo
 
 * Make the images available on the Internet somewhere.
