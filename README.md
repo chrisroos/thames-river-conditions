@@ -1,6 +1,6 @@
 # Thames river conditions
 
-PhantomJS script to save screenshot of Thames river conditions.
+PhantomJS script to save screenshot of [Thames river conditions](http://riverconditions.environment-agency.gov.uk/).
 
 `phantomjs save-river-conditions.js`
 
